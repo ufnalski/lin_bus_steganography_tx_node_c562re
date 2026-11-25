@@ -1,0 +1,21 @@
+# STM32CubeIDE for VS Code
+/lin_bus_steganography_tx_node_c562re_cmake/.settings/
+/lin_bus_steganography_tx_node_c562re_cmake/.vscode/
+/lin_bus_steganography_tx_node_c562re_cmake/arch/
+/lin_bus_steganography_tx_node_c562re_cmake/build/
+/lin_bus_steganography_tx_node_c562re_cmake/cmake/
+/lin_bus_steganography_tx_node_c562re_cmake/generated/
+/lin_bus_steganography_tx_node_c562re_cmake/stm32c5xx_dfp/
+/lin_bus_steganography_tx_node_c562re_cmake/stm32c5xx_drivers/
+/lin_bus_steganography_tx_node_c562re_cmake/user_modifiable/
+/lin_bus_steganography_tx_node_c562re_cmake/utilities/
+.clangd
+CMakePresets.JSON
+
+# User files
+/Assets/Tools/
+/Assets/Videos/
+/Assets/Docs/
+/Assets/Arduino/
+/Assets/Libs/
+/Assets/Images/HighRes/
