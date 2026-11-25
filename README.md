@@ -6,8 +6,8 @@ Wiper drive: [MITSUBA WM23B front wiper module with brushless motor and LIN bus 
 
 Stego-slave RX node: [LIN bus break field steganography RX node](https://github.com/ufnalski/lin_bus_steganography_rx_node_c5a3zg)
 
-![LIN bus short break field steganography TX node in action](/Assets/Images/stego_frame_short_break.JPG)
-![LIN bus long break field steganography TX node in action](/Assets/Images/stego_frame_long_break.JPG)
+![LIN bus short break field steganography TX node in action](/Assets/Images/stego_frame_short_break.jpg)
+![LIN bus long break field steganography TX node in action](/Assets/Images/stego_frame_long_break.jpg)
 
 > [!NOTE]
 > A standard LIN master sends a break field of at least 13 dominant (low) bits, followed by a break delimiter of at least 1 recessive (high) bit. A standard LIN slave detects that break after 11 dominant bits. A stego LIN master modulates the length of the break field to hide additional bits of information. The stego LIN slave not only reads the regular payload using a UART peripheral but also measures the length of the break field using a TIM peripheral in the input capture mode. In this demo only one hidden bit per frame is sent. One more bit can be hidden in the break delimiter. In fact more than two bits can be hidden if you introduce more than two different duration times. This would increase the throughput of the stego-channel. Remember to account for oscillator frequency tolerance.
